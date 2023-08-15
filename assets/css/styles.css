@@ -1015,9 +1015,13 @@ a {
   line-height: 1.71;
 }
 /* ------------------- footer----------------- */
+.footer {
+  background: linear-gradient(to right, #fff6ed 40%, #fffaf5 40%);
+}
 .footer--inner {
   display: flex;
   align-items: center;
+  gap: 130px;
 }
 
 .footer-form {
